@@ -1,0 +1,166 @@
+{
+  
+  "workbench.startupEditor": "none",
+  "workbench.iconTheme": "moxer-icons",
+  "workbench.colorTheme": "Moonlight",
+  "workbench.editor.tabSizing": "shrink",
+  "workbench.layoutControl.enabled": false,
+
+  "editor.lineHeight": 20,
+  "editor.fontSize": 10,
+  "editor.wordWrap": "on",
+  "editor.renderLineHighlight": "none",
+  "editor.matchBrackets": "always",
+  "editor.guides.indentation": true,
+  "editor.occurrencesHighlight": "off",
+  "editor.formatOnSave": true,
+  "editor.bracketPairColorization.enabled": true,
+  "editor.guides.bracketPairs": "active",
+  "editor.snippetSuggestions": "top",
+  "editor.linkedEditing": true,
+  "editor.minimap.enabled": false,
+  "editor.tabSize": 2,
+  "editor.quickSuggestions": { "strings": true },
+  "editor.stickyScroll.enabled": false,
+  "editor.inlineSuggest.enabled": true,
+
+  "terminal.integrated.defaultProfile.osx": "zsh",
+  "terminal.integrated.fontSize": 10,
+  "terminal.integrated.cursorStyle": "line",
+  "terminal.integrated.cursorBlinking": true,
+  "terminal.integrated.fontFamily": "JetBrainsMono Nerd Font",
+
+  "files.autoSave": "onWindowChange",
+  "files.exclude": {
+    "**/.open-next": true,
+    "**/.sst": true,
+    "**/.nx": true,
+    "**/.turbo": true,
+    "**/.git": true,
+    "**/.svn": true,
+    "**/.hg": true,
+    "**/CVS": true,
+    "**/.DS_Store": true,
+    "**/Thumbs.db": true,
+    "**/node_modules": true,
+    "**/.husky": true,
+    "**/.github": true,
+    "**/dist": true,
+    "**/.next": true,
+    "**/*.tsbuildinfo": true,
+    "**/.astro": true
+  },
+  "files.associations": { "*.css": "tailwindcss" },
+
+  "prettier.tabWidth": 2,
+  "prettier.jsxSingleQuote": true,
+  "prettier.singleQuote": true,
+
+  "[html]": {
+    "editor.suggest.insertMode": "replace",
+    "editor.autoClosingBrackets": "always",
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[css]": {
+    "editor.suggest.insertMode": "replace",
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[scss]": {
+    "editor.suggest.insertMode": "replace",
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[php]": {
+    "editor.defaultFormatter": "bmewburn.vscode-intelephense-client"
+  },
+  "[javascriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[blade]": {
+    "editor.autoClosingBrackets": "always",
+    "editor.defaultFormatter": "shufo.vscode-blade-formatter"
+  },
+
+  "intelephense.diagnostics.undefinedMethods": false,
+  "intelephense.diagnostics.undefinedProperties": false,
+  "intelephense.diagnostics.undefinedFunctions": false,
+  "intelephense.diagnostics.undefinedTypes": false,
+  "intelephense.completion.triggerParameterHints": true,
+
+  "emmet.triggerExpansionOnTab": true,
+  "emmet.includeLanguages": {
+    "javascript": "javascriptreact",
+    "blade": "html"
+  },
+
+  "tailwindCSS.includeLanguages": {
+    "plaintext": "html",
+    "javascript": "javascript",
+    "javascriptreact": "javascriptreact",
+    "typescript": "typescript",
+    "typescriptreact": "typescriptreact",
+    "html": "html",
+    "markdown": "markdown"
+  },
+
+  "php.suggest.basic": true,
+  "php.validate.executablePath": "/opt/homebrew/bin/php",
+  "php.validate.run": "onType",
+  "php.validate.enable": true,
+
+  "git.enableSmartCommit": true,
+  "git.autoRepositoryDetection": true,
+  "git.confirmSync": false,
+  "git.autofetch": true,
+
+  "extensions.autoCheckUpdates": false,
+  "extensions.experimental.affinity": {
+    "asvetliakov.vscode-neovim": 1
+  },
+
+  "apc.activityBar": {
+    "position": "bottom",
+    "hideSettings": true,
+    "size": 24
+  },
+  "apc.statusBar": {
+    "position": "editor-bottom",
+    "height": 22,
+    "fontSize": 10
+  },
+  "apc.electron": {
+    "titleBarStyle": "hiddenInset",
+    "trafficLightPosition": {
+      "x": 8,
+      "y": 10
+    }
+  },
+  "apc.header": {
+    "height": 24,
+    "fontSize": 10
+  },
+  "apc.sidebar.titlebar": { "fontSize": 10 },
+  "apc.listRow": {
+    "height": 21,
+    "fontSize": 10
+  },
+  "apc.stylesheet": {
+    ".inline-titlebar-placeholder": { "display": "none" }
+  },
+
+  "explorer.confirmDelete": false,
+  "explorer.confirmDragAndDrop": false,
+  "explorer.compactFolders": false,
+  "window.zoomLevel": 1,
+  "window.commandCenter": false,
+  "breadcrumbs.enabled": false,
+  "update.mode": "manual"
+}
